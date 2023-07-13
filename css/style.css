@@ -77,9 +77,9 @@ li a:hover:not(.active, .img-link) {
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -87,17 +87,31 @@ li a:hover:not(.active, .img-link) {
     display: block;
     text-align: center;
     padding: 2rem;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover:not(.searchbar) {
     background-color: #18abad;
     color: #ffff;
     text-shadow: #18abad;
-  }
-  
-  .main {
+}
+
+.main {
     margin-left: 16rem;
     font-size: 28px;
     padding: 5rem 2rem;
+}
 
-  }
+.search {
+    position: fixed;
+    left: 1rem;
+    border-radius: 10px;
+    width: 13rem;
+    height: 2rem;
+    top: 5rem;
+    text-align: center;
+    font-style: italic;
+    border: solid 3px #18abad;
+    background: #000;
+    caret-color: #18abad;
+    color: #18abad;
+}
