@@ -66,3 +66,38 @@ li a:hover:not(.active, .img-link) {
 .profile:hover .dropdown-content {
     display: block;
 }
+
+.sidenav {
+    height: 100%;
+    width: 16rem;
+    position: fixed;
+    z-index: 1;
+    top: 2.9rem;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .sidenav a:hover {
+    background-color: #18abad;
+    color: #ffff;
+    text-shadow: #18abad;
+  }
+  
+  .main {
+    margin-left: 16rem;
+    font-size: 28px;
+    padding: 5rem 2rem;
+
+  }
