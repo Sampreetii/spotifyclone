@@ -147,7 +147,7 @@ body {
   
   .card{
     flex: 1;
-    height: 200px;
+    height: 258px;
     background-color: gray;
     border-radius: 16px;
     transition: all .3s ease;
@@ -186,6 +186,7 @@ body {
   }
   .c1{
     background-image: url("../assets/Pink_Floyd_.jpg");
+    text-align: center;
     
   }
   .c2{
