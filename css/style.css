@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body {
     margin: 0;
 }
@@ -87,6 +88,8 @@ li a:hover:not(.active, .img-link) {
     display: block;
     text-align: center;
     padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 .sidenav a:hover:not(.searchbar) {
@@ -115,3 +118,101 @@ li a:hover:not(.active, .img-link) {
     caret-color: #18abad;
     color: #18abad;
 }
+body {
+    background: #333;
+  }
+  
+  .one{
+    background-image: url("../assets/1.png");
+  }
+  
+  .two{
+    background-image: url("../assets/2.png");
+    
+  }
+  
+  .three{
+    background-image: url("../assets/3.png");
+  }
+  
+  .four{
+    background-image: url("../assets/4.png");
+  }
+  
+  .container{
+      display: flex;
+      width: 90vw;
+      gap: 10px;
+  }
+  
+  .card{
+    flex: 1;
+    height: 200px;
+    background-color: gray;
+    border-radius: 16px;
+    transition: all .3s ease;
+    overflow: hidden;
+    font-family: 'open sans';
+    font-weight: 900;
+    padding: 1rem;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+  .card div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0 1rem;
+    background-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50px;
+  }
+  
+  .card:hover:not(.artist){
+      flex: 2;
+      background-color: #18abad;
+      cursor: pointer;
+  }
+  .artist{
+    border-radius: 50%;
+    height: 250px !important;
+    animation: normal; 
+  }
+  .c1{
+    background-image: url("../assets/Pink_Floyd_.jpg");
+    
+  }
+  .c2{
+    background-image: url("../assets/taylor_swift.jpg");
+  }
+  .c3{
+    background-image: url("../assets/Darshan_Raval.jpg");
+  }
+  .c4{
+    background-image: url("../assets/shreya.jpg");
+  }
+
+  p{
+    color: #18abad;
+  }
+  
+  @media (max-width: 480px) {
+    p{
+      font-size: 10px;
+    }
+    .card div{
+      width: 1rem;
+      height: 1rem;
+    }
+    .container{
+      margin: 0 auto;
+    }
+  }
+  
+  
