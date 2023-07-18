@@ -29,10 +29,10 @@
 
     <div class="sidenav">
         <a class="searchbar"><input class="search" type="text" placeholder="Search songs, artists, albums...">
-        <a href="#library">Liked Songs</a>
-        <a href="#library">Library</a>
-        <a href="#clients">Podcasts</a>
-        <a href="#contact">For You</a>
+            <a href="#library">Liked Songs</a>
+            <a href="#library">Library</a>
+            <a href="#clients">Podcasts</a>
+            <a href="#contact">For You</a>
     </div>
     <div class="main">
         <h3 style="color: aliceblue;">FOTISPY PLAYLISTS</h3>
@@ -41,11 +41,11 @@
             <div class="card two"></div>
             <div class="card three"></div>
             <div class="card four"></div>
-           </div>
-           <h2></h2>
-           <h3 style="color: aliceblue;">ARTISTS</h3>
-           
-           <div class="container">
+        </div>
+        <h2></h2>
+        <h3 style="color: aliceblue;">ARTISTS</h3>
+
+        <div class="container">
             <div class="card artist c1">
                 <span>Pink Floyd</span>
             </div>
@@ -53,13 +53,50 @@
                 <span class="text2">Taylor Swift</span>
             </div>
             <div class="card artist c3">
-            <span class="text3">Darshan Raval</span>
-        </div>
+                <span class="text3">Darshan Raval</span>
+            </div>
             <div class="card artist c4">
-            <span class="text4">Shreya Ghoshal</span>
+                <span class="text4">Shreya Ghoshal</span>
+            </div>
+
         </div>
-           
-    </div>
+
+        <div class="now-playing">
+            <input type="hidden" id="songState" value="paused">
+            <audio id="song-asset">
+                <source src="./assets/song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            <div class="nowplaying-text">
+                Now Playing <i class="fa fa-play"></i>
+            </div>
+            <div class="album-art">
+                <img src="./assets/album-art.jpg">
+            </div>
+            <div class="song-details">
+                <div class="song-title">Pigs on the Wing</div>
+                <div class="song-artist">Pink Floyd</div>
+            </div>
+
+            <div class="prev-track">
+                <button class="media-button">
+                    <i class="fa fa-step-backward"></i>
+                </button>
+            </div>
+            <div class="playpause-track">
+                <button class="media-button" onclick="playpause()">
+                    <i class="fa fa-play" id="play-icon"></i>
+                    <i class="fa fa-pause" style="display: none;" id="pause-icon"></i>
+                </button>
+
+            </div>
+            <div class="next-track">
+                <button class="media-button">
+                    <i class="fa fa-step-forward"></i>
+                </button>
+            </div>
+
+        </div>
 </body>
 
 </html>
