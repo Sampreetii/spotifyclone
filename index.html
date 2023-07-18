@@ -14,7 +14,7 @@
     <ul>
         <li><a class="active" href="#home">千ㄖㄒ丨丂卩ㄚ &nbsp;&nbsp;<i class="fa fa-headphones"></i></a></li>
         <li class="float-right profile"><a class="img-link" href="#profile"><img class="navbar-icon"
-                    src="./assets/profile.png">
+                    src="./assets/profile.png" onclick="onclickbtn()">
                 <div class="dropdown-content">
                     <a href="#">Edit Profile</a>
                     <a href="#">Change Password</a>
@@ -96,6 +96,32 @@
                 </button>
             </div>
 
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close" onclick="onclickclose()">&times;</span>
+                    <h2>Login to 千ㄖㄒ丨丂卩ㄚ</h2>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="input-container">
+                            <i class="fa fa-user icon"></i>
+                            <input class="input-field" type="text" placeholder="Username or email" name="usrnm">
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-key icon"></i>
+                            <input class="input-field" type="password" placeholder="Password" name="psw">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <a class="action-button reallogin" id="myBtn" href="./index.html"
+                        onclick="alert('Logged in successfully! Redirecting to main page...')">LOG IN
+                    </a>
+                </div>
+            </div>
+    
         </div>
 </body>
 
