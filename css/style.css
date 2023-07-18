@@ -8,10 +8,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-image: linear-gradient(#262525,#455555 );
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 
 li {
@@ -141,7 +142,7 @@ body {
   
   .container{
       display: flex;
-      width: 90vw;
+      width: 100%;
       gap: 10px;
   }
   
@@ -203,17 +204,34 @@ body {
     color: #18abad;
   }
   
-  @media (max-width: 480px) {
-    p{
-      font-size: 10px;
-    }
-    .card div{
-      width: 1rem;
-      height: 1rem;
-    }
-    .container{
-      margin: 0 auto;
-    }
+  .container{
+    position: relative;
   }
+  .artist span{
+    position: absolute;
+    top:296px;
+    left: 85px;
+    color: white;
+  }
+  
+  .artist .text2{
+    position: absolute;
+    top:296px;
+    left: 373px;
+    color: white;
+  }
+  .artist .text3{
+    position: absolute;
+    top:296px;
+    left: 664px;
+    color: white;
+  }
+  .artist .text4{
+    position: absolute;
+    top:296px;
+    left: 967px;
+    color: white;
+  }
+  
   
   
