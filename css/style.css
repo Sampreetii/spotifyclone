@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
+
 body {
   margin: 0;
 }
@@ -190,10 +191,10 @@ body {
   animation: normal;
 }
 
+
 .c1 {
   background-image: url("../assets/Pink_Floyd_.jpg");
   text-align: center;
-
 }
 
 .c2 {
@@ -285,7 +286,7 @@ p {
   display: inline;
   position: absolute;
   left: 1rem;
-  top: 0.5rem;
+  top: 0.85rem;
   color: #18abad;
 }
 
@@ -435,4 +436,33 @@ p {
 
 .input-field:focus {
   border: 2px solid dodgerblue;
+}
+
+.footer-container{
+  width: 76rem;
+  height: 530px;
+  margin-top: 100px;
+  padding-top: 20px;
+  background-color: black;  
+  color: white;
+  text-align: center;
+  font-family: 'Comic Sans MS';
+}
+
+.author-info {
+  text-align: left;
+  width: 30%;
+  font-size: 15px;
+  padding: 2rem 2rem;
+  display: table-cell;
+  font-family: 'Times New Roman', Times, serif;
+}
+.author-pic {
+  zoom: 0.1;
+}
+.author-name {
+  position: relative;
+  top: -68px;
+  left: 75px;
+  width: 70%;
 }
