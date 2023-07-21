@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="/assets/favicon.ico">
-    <script type="application/javascript" src="js/script.js"></script>
+    <link rel="icon" href="./assets/favicon.ico">
+    
     <title>Fotispy</title>
 </head>
 
@@ -30,34 +30,34 @@
 
     <div class="sidenav">
         <a class="searchbar"><input class="search" type="text" placeholder="Search songs, artists, albums...">
-            <a href="#library">Liked Songs</a>
-            <a href="#library">Library</a>
-            <a href="#clients">Podcasts</a>
-            <a href="#contact">For You</a>
+            <a href="https://open.spotify.com/" target="_blank">Liked Songs</a>
+            <a href="https://open.spotify.com/" target="_blank">Library</a>
+            <a href="https://open.spotify.com/search/podcast" target="_blank">Podcasts</a>
+            <a href="https://open.spotify.com/" target="_blank">For You</a>
     </div>
     <div class="main">
         <h3 style="color: aliceblue;">FOTISPY PLAYLISTS</h3>
         <div class="container">
-            <div class="card one"></div>
-            <div class="card two"></div>
-            <div class="card three"></div>
-            <div class="card four"></div>
+            <a class="card one" href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO4gTUOY" target="_blank"><div ></div></a>
+            <a class="card two" href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO20KKoE" target="_blank"><div  ></div></a>
+            <a class="card three" href="https://open.spotify.com/playlist/37i9dQZF1DWYztMONFqfvX" target="_blank"><div  ></div></a>
+            <a class="card four" href="https://open.spotify.com/album/01sfgrNbnnPUEyz6GZYlt9" target="_blank"><div  ></div></a>
         </div>
         <h2></h2>
         <h3 style="color: aliceblue;">ARTISTS</h3>
 
         <div class="container">
             <div class="card artist c1 c">
-                <span>Pink Floyd</span>
+                <span ><a class="text1" href="https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9" target="_blank"> Pink Floyd</a></span>
             </div>
             <div class="card artist c2 c">
-                <span class="text2">Taylor Swift</span>
+                <span ><a class="text2" href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02" target="_blank">Taylor Swift</a></span>
             </div>
             <div class="card artist c3 c">
-                <span class="text3">Darshan Raval</span>
+                <span><a class="text3" href="https://open.spotify.com/artist/2GoeZ0qOTt6kjsWW4eA6LS" target="_blank">Darshan Raval</a></span>
             </div>
             <div class="card artist c4 c">
-                <span class="text4">Shreya Ghoshal</span>
+                <span><a class="text4" href="https://open.spotify.com/artist/0oOet2f43PA68X5RxKobEy" target="_blank">Shreya Ghoshal</a></span>
             </div>
 
         </div>
@@ -156,9 +156,12 @@
                         Meghnad Saha Institute of Technology, Kolkata.
                     </div>
                 </div>
-                Inspired by <i class="fa fa-spotify" style="font-size:38px;color:green"></i>Spotify  :)<br><br>
-                <a href="#" style="text-decoration: none; color: #18abad; font-size: 18px; margin-top: 10px;">&uarr; Back to top </a>
-        </div>
+                Inspired by <i class="fa fa-spotify" style="font-size:38px;color:green"></i><a href="https://open.spotify.com/" style="text-decoration: none;" target="_blank"> <span style=" color: #ffffff !important;"> Spotify :)</span></a><br><br>
+                <div id="topButton" onclick="backtoTop()" style="text-decoration: none; color: #18abad; font-size: 18px; margin-top: 10px; cursor: pointer;">&uarr; Back to top </div><br>
+                <div style="text-decoration: none; color: #f8fafa; font-size: 15px; margin-top: 10px;">&#169; Copyright 2023-2034 </div>
+        
+            </div>
+            <script type="application/javascript" src="js/script.js"></script>
 </body>
 
 </footer>

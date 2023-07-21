@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-
+*{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
+  
 }
 
 ul {
@@ -116,10 +119,8 @@ li a:hover:not(.active, .img-link) {
   top: 5rem;
   text-align: center;
   font-style: italic;
-  border: solid 3px #18abad;
-  background: #000;
-  caret-color: #18abad;
-  color: #18abad;
+  border: solid 3px ↑ Back to top
+
 }
 
 body {
@@ -217,11 +218,12 @@ p {
   position: relative;
 }
 
-.artist span {
+.artist .text1 {
   position: absolute;
   top: 296px;
   left: 85px;
   color: white;
+  text-decoration: none;
 }
 
 .artist .text2 {
@@ -229,6 +231,8 @@ p {
   top: 296px;
   left: 373px;
   color: white;
+  text-decoration: none;
+
 }
 
 .artist .text3 {
@@ -236,6 +240,8 @@ p {
   top: 296px;
   left: 664px;
   color: white;
+  text-decoration: none;
+
 }
 
 .artist .text4 {
@@ -243,6 +249,7 @@ p {
   top: 296px;
   left: 967px;
   color: white;
+  text-decoration: none;
 }
 
 .now-playing {
@@ -455,7 +462,7 @@ p {
   font-size: 15px;
   padding: 2rem 2rem;
   display: table-cell;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
 }
 .author-pic {
   zoom: 0.1;
